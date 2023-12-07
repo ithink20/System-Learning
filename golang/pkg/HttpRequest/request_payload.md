@@ -61,3 +61,7 @@ PASS
 ```
 
 Interesting: Encoding is expensive than decoding
+
+url.QueryEscape() --> can be optimised more
+-  https://github.com/VictoriaMetrics/VictoriaMetrics/issues/2114
+- https://github.com/golang/go/issues/17860
